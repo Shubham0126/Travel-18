@@ -489,3 +489,124 @@
     padding-right: 0;
     border-right: none;
 }
+
+/* Marketing PopUp */
+
+.modal-box{
+	/* top: 40%; */
+	opacity: 1;
+	position: fixed;
+	display: none;
+	background: white;
+	height: auto;
+	left: 0; 
+	right: 0; 
+	top: 20%;  
+	margin: auto;
+	max-width: 400px;
+	/* padding: 30px; */
+	z-index: 100;
+	border-radius: 5px;
+	border: 1px solid var(--primary);
+	box-shadow: 5px 5px 30px rgba(0,0,0,.2);
+  }
+  .modal-box img{
+    filter: brightness(35%);
+  }
+  .modal-box .img-text{
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    color: White;
+    top: 120px;
+    left: 70px;
+  }
+  .modal-box .body-modal{
+    padding: 30px;
+    padding-top: 0px;
+  }
+  .modal-box .fa-times{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: var(--primary);
+	height: 45px;
+	width: 50px;
+	line-height: 40px;
+	color: white;
+	font-size: 18px;
+	border-radius: 0 5px 0 50px;
+	padding-left: 13px;
+	cursor: pointer;
+    z-index: 112;
+  }
+  .fa-times:hover{
+	font-size: 22px;
+  }
+  .modal-box .icon1{
+	font-size: 60px;
+	background: var(--primary);
+	height: 120px;
+	width: 120px;
+	color: white;
+	border-radius: 50%;
+	line-height: 120px;
+	text-align: center;
+	margin-bottom: 10px;
+  }
+  .modal-box header{
+	font-size: 31px;
+	font-family: 'Lobster Two';
+	margin-bottom: 10px;
+  }
+  .modal-box p{
+	/* margin-bottom: 10px; */
+	line-height: 20px;
+	color: grey;
+  }
+  form input, form button{
+	height: 50px;
+	width: 95%;
+	border-radius: 3px;
+  }
+  form .icon2{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	margin-top: 15px;
+	background: var(--primary);
+	color: white;
+	line-height: 50px;
+	font-size: 24px;
+	border-radius: 5px 0 0 5px;
+  }
+
+  form button{
+	margin-top: 15px;
+	background: var(--primary);
+	color: white;
+	font-size: 25px;
+	border: 1px solid var(--primary);
+	letter-spacing: 1px;
+	cursor: pointer;
+	outline: none;
+	transition: .3s;
+  }
+  form button:hover{
+	background: var(--primary);
+	border: 1px solid var(--primary);
+	letter-spacing: 2px;
+  }
+  .modal-box .icons{
+	margin-top: 25px;
+  }
+  .icons i{
+	font-size: 22px;
+	margin: 0 7px;
+	color: var(--primary);
+	cursor: pointer;
+  }
+  .icons i:hover{
+	transform: scale(1.1);
+	color: var(--primary);
+  }

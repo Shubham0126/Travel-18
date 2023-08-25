@@ -1,5 +1,21 @@
 
-    // Testimonials carousel
+$(".fa-times").click(function(){
+    $('.modal-box').hide();
+});
+
+var delay = 5000;
+setTimeout(function() {
+  setInterval(function(){
+    $(document).ready(function () {
+
+        $('.modal-box').show();
+    
+    });
+  },4000)
+}, delay);
+   
+   
+   // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
@@ -21,4 +37,4 @@
         }
     });
     
-(jQuery);
+(jQuery); 
